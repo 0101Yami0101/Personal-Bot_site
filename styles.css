@@ -1,0 +1,245 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: silkscreen;
+    text-shadow: 1px 2px black, 0 0 25px aquamarine, 3px 2px 5px black;
+}
+
+.navigation {
+    background-color: #000000;
+    font-family: silkscreen;
+    font-size: 20px;
+    padding: 2rem;
+    margin-top: 5px;
+    z-index: 2;
+}
+
+.navbar{
+    position: sticky;
+}
+
+
+
+/* section2 */
+#second-section {
+    background-color: #413F42;
+    font-family: silkscreen;
+    font-size: 40px;
+    border: 5px solid black;
+    border-radius: 10%;
+
+}
+
+#quote {
+    padding-right: 80px;
+    padding-top: 100px;
+    color: aqua;
+}
+
+img {
+
+    width: 90%;
+    height: 80%;
+
+}
+
+#bot-image {
+    padding-top: 0;
+}
+
+.download {
+    height: 20%;
+    width: 100%;
+    margin-top: 10rem;
+}
+
+#download_and-ios:hover {
+
+    border-radius: 1rem;
+    box-shadow: 20px 10px 10px burlywood;
+    cursor: pointer;
+}
+
+/* section3 */
+#third-section {
+    height: 80rem;
+    /* background-color: #413F42; */
+
+}
+
+.second-header {
+    color: aqua;
+    background-color: #000000;
+    height: 10rem;
+
+}
+
+.body-section-2 {
+    background-color: #413F42;
+    border-radius: 10%;
+    border: 5px solid black;
+}
+
+.doc-heading {
+    font-size: 6vw;
+    font-family: silkscreen;
+    padding-left: 1rem;
+}
+
+
+
+
+@media screen and (max-width:720px) {
+    .doc-heading {
+
+        font-size: 48px;
+        padding-left: 2.4rem;
+        padding-top: 1rem;
+
+    }
+
+    .second-header {
+        height: 6.5rem;
+    }
+
+    .doc-gif {
+        margin-top: -1rem;
+    }
+
+}
+
+.lets-know h1 {
+    color: aqua;
+    padding-left: 50px;
+    padding-top: 50px;
+    font-size: 5rem;
+}
+
+
+@media screen and (max-width:760px) {
+    .lets-know h1 {
+        font-size: 2rem;
+        margin-top: -10rem;
+        padding-left: 10rem;
+
+    }
+
+}
+
+.carousel {
+    padding-left: 10rem;
+    padding-right: 10rem;
+}
+
+.carousel-inner img {
+    width: 540px;
+    height: 800px;
+    border: 10px solid black;
+    border-radius: 4%;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next {
+    filter: invert(100%);
+}
+
+@media screen and (max-width:760px) {
+    .carousel {
+        padding-left: 0rem;
+        padding-right: 0rem;
+
+    }
+
+}
+
+
+/* /* #fourth-section */
+
+.third-header {
+    color: aqua;
+    background-color: #000000;
+    margin-top: 11rem;
+}
+
+.The-Team {
+    padding-left: 14rem;
+    margin-bottom: 1rem;
+
+}
+
+#Talent-quote {
+    color: aqua;
+    padding-top: 8rem;
+
+}
+
+@media screen and (max-width:760px) {
+    .third-header {
+        margin-top: 4rem;
+    }
+
+    .The-Team {
+        padding-left: 5rem;
+
+    }
+
+}
+
+/* cards */
+.card {
+    background-color: bisque;
+    border: 2px solid black;
+    height: 20rem;
+    width: 20rem;
+    margin: 4rem;
+    margin-left: 10rem;
+    box-shadow: 10px 10px 5px lightblue;
+
+
+}
+
+@media screen and (max-width:760px) {
+    .card {
+        margin-top: -2rem;
+    }
+
+
+}
+
+/* #fifth section */
+
+#fifth-section {
+    border: 10px solid black;
+    background-color: #413F42;
+    margin-top: 1rem;
+    margin-bottom: 5rem;
+    border-radius: 10%;
+}
+
+
+#fifth-section:hover {
+    box-shadow: 10px 10px 5px lightblue;
+
+}
+
+#fifth-section img {
+    width: 2rem;
+    height: 2rem;
+    margin: 100px 320px;
+
+}
+
+@media screen and (max-width:760px) {
+    #fifth-section img {
+        margin-left: 8.5rem;
+    }
+
+
+}
+
+#fifth-section img:hover {
+    cursor: pointer;
+
+}
